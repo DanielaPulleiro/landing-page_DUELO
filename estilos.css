@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,;
+    background: #ff00cc;
+    color: aquamarine;
+    font-size: 20px ;
+}
+.cabecera{
+    position: sticky;
+    top: 0;
+    background: #ffa8ee;
+    padding: 15px 0;
+    z-index: 1000;
+    border-bottom: 1px solid #05ff69;
+    box-shadow: 0 4px 15px rgba(255, 42, 138, 0,6);
+}
+
+.barra-navegacion{
+    display: flex;
+    justify-content: space-beteen;
+    align-items: center;
+}
