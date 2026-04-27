@@ -8,7 +8,7 @@ body{
 .cabecera{
     position: sticky;
     top: 0;
-    background: #000000;
+    background: #b9b6b6;
     padding: 15px 0;
     z-index: 1000;
     border-bottom: 1px solid #f2ff00;
@@ -30,3 +30,25 @@ body{
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.526)
   
 } 
+
+@media (max-width: 768px){
+    .barra-navegacion{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .enlace-navegacion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        width: 100%;
+    }
+
+    .enlace-navegacion a{
+        /* display: block;
+        width: 100%; */
+        color: #f2ff00;
+    }
+}
