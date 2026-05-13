@@ -52,3 +52,86 @@ body{
         color: #f2ff00;
     }
 }
+
+/* MODO OSCURO */
+
+.dark-mode{
+    background:#111;
+    color:white;
+}
+
+/* HEADER */
+
+.dark-mode .cabecera{
+    background:#1b1b1b;
+    border-bottom:1px solid #444;
+}
+
+/* CARD */
+
+.dark-mode .card{
+    background:#222;
+    color:white;
+    border:1px solid #555;
+}
+
+/* TEXTAREA */
+
+.dark-mode textarea{
+    background:#333;
+    color:white;
+    border:none;
+}
+
+/* LINKS */
+
+.dark-mode a{
+    color:white;
+}
+
+/* PANTALLA COMPLETA */
+
+.pantalla-completa{
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    padding:40px;
+}
+
+/* CARD CENTRAL */
+
+.experiencia-card{
+
+    width:100%;
+    max-width:900px;
+
+    border-radius:25px;
+
+    padding:50px;
+
+    backdrop-filter: blur(10px);
+}
+
+/* TITULO */
+
+.titulo{
+    font-size:3rem;
+    font-weight:bold;
+}
+
+/* TEXTAREA */
+
+textarea{
+    min-height:220px;
+    font-size:18px;
+    resize:none;
+}
+
+/* RESULTADO */
+
+.resultado{
+    font-size:1.3rem;
+}
