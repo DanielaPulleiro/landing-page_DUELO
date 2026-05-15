@@ -1,7 +1,7 @@
 body{
     margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,;
-    background: #ffffff;
+    background: #b9b6b6;
     color: rgb(246, 255, 127);
     font-size: 20px ;
 }
@@ -134,4 +134,71 @@ textarea{
 
 .resultado{
     font-size:1.3rem;
+}
+html{
+    scroll-behavior:smooth;
+}
+
+.logo{
+    text-decoration:none;
+    font-size:28px;
+    font-weight:bold;
+    color:#f2ff00;
+}
+
+.logo span{
+    color:white;
+}
+
+.enlace-navegacion{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.enlace-navegacion a{
+    text-decoration:none;
+    color:#f2ff00;
+    font-weight:bold;
+}
+
+.hero{
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    padding:50px;
+}
+
+.hero-contenido{
+    max-width:900px;
+}
+
+.hero h1{
+    font-size:5rem;
+    margin-bottom:25px;
+}
+
+.hero p{
+    font-size:1.4rem;
+    line-height:1.8;
+    margin-bottom:40px;
+}
+
+.seccion-fases{
+    padding:120px 40px;
+}
+
+.fase-card{
+    height:100%;
+    border-radius:20px;
+    transition:0.3s;
+}
+
+.fase-card:hover{
+    transform:translateY(-10px);
 }
