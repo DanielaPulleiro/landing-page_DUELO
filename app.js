@@ -119,8 +119,38 @@ function cambiarModo(){
 
 }
 
-function recalcular(){
+<header class="cabecera">
 
-    location.reload();
+    <div class="container barra-navegacion">
 
-}
+        <a class="logo" href="#">
+            Elizabeth<span>Kübler-Ross</span>
+        </a>
+
+        <nav class="enlace-navegacion">
+
+            <a href="#inicio">Inicio</a>
+            <a href="#fases">Fases del duelo</a>
+            <a href="#experiencia">Tu experiencia</a>
+
+            <button
+                type="button"
+                class="btn btn-outline-warning btn-sm"
+                onclick="recalcular()"
+            >
+                RECALCULAR
+            </button>
+
+            <button
+                class="btn btn-light btn-sm"
+                onclick="cambiarModo()"
+            >
+                oscuro / claro
+            </button>
+
+        </nav>
+
+    </div>
+
+</header>
+
