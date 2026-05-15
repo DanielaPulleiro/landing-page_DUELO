@@ -36,37 +36,118 @@
 
 </header>  <!-- totes les seccions que hi ha en la langing, i les section son les parts dels links del menu -->
 
-   
+   <section id="inicio" class="hero">
 
+    <div class="hero-contenido">
 
+        <h1>
+            Comprender el proceso del duelo
+        </h1>
 
-<section class="pantalla-completa">
+        <p>
+            El duelo no sigue un orden exacto.
+            Cada persona vive la pérdida de forma distinta.
+            Este espacio busca ayudarte a identificar emociones
+            y comprender mejor lo que estás sintiendo.
+        </p>
+
+        <a href="#experiencia" class="btn btn-warning btn-lg">
+            Compartir experiencia
+        </a>
+
+    </div>
+
+</section>
+<section id="fases" class="seccion-fases">
+
+    <h2 class="text-center mb-5">
+        Las 5 fases del duelo
+    </h2>
+
+    <div class="container">
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card fase-card p-4">
+                    <h3>Negación</h3>
+                    <p>
+                        La mente rechaza la realidad para amortiguar
+                        el impacto emocional inicial.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card fase-card p-4">
+                    <h3>Ira</h3>
+                    <p>
+                        Aparecen frustración, rabia e impotencia
+                        frente a la pérdida.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card fase-card p-4">
+                    <h3>Negociación</h3>
+                    <p>
+                        Surgen pensamientos hipotéticos y culpa:
+                        “¿Y si hubiera hecho algo distinto?”
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card fase-card p-4">
+                    <h3>Depresión</h3>
+                    <p>
+                        La tristeza y el vacío emocional se vuelven
+                        más presentes.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card fase-card p-4">
+                    <h3>Aceptación</h3>
+                    <p>
+                        No significa olvidar, sino aprender
+                        a convivir con la pérdida.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<section id="experiencia" class="pantalla-completa">
 
     <div class="card experiencia-card p-5">
 
-        <h1 class="titulo mb-4">
+        <h2 class="titulo mb-4">
             Cuenta tu experiencia
-        </h1>
+        </h2>
 
-        <p class="mb-4">
-            Describe cómo te sientes tras la pérdida.
-        </p>
-
-        <textarea 
+        <textarea
             id="textoUsuario"
             class="form-control mb-4"
-            rows="8"
-            placeholder="Escribe aquí..."
+            placeholder="Escribe cómo te sientes..."
         ></textarea>
 
-        <button 
-            class="btn btn-warning btn-lg"
+        <button
+            class="btn btn-warning mb-4"
             onclick="analizarDol()"
         >
-            Analizar experiencia
+            Analizar emociones
         </button>
 
-        <div id="resultado" class="resultado mt-5"></div>
+        <div
+            id="resultado"
+            class="resultado"
+        ></div>
 
     </div>
 
